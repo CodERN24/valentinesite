@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1125" viewBox="0 0 900 1125" role="img" aria-label="Couple sharing coffee at sunset">
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb3c8" />
+      <stop offset="100%" stop-color="#ffd8e4" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1125" fill="url(#sky1)"/>
+  <circle cx="680" cy="220" r="110" fill="#fff1a8" opacity="0.8"/>
+  <rect y="690" width="900" height="435" fill="#f7a8c1"/>
+  <g fill="#7b4b65">
+    <ellipse cx="360" cy="725" rx="120" ry="160"/>
+    <ellipse cx="555" cy="725" rx="120" ry="160"/>
+  </g>
+  <g fill="#fff">
+    <rect x="405" y="600" width="95" height="75" rx="15"/>
+    <rect x="435" y="573" width="34" height="35" rx="7"/>
+  </g>
+  <text x="52" y="1060" font-family="Nunito, Arial, sans-serif" font-size="52" fill="#6a3654">Coffee + Sunset</text>
+</svg>

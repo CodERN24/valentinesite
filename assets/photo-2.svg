@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1125" viewBox="0 0 900 1125" role="img" aria-label="Heart-shaped balloons in the city">
+  <defs>
+    <linearGradient id="city" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c4e0ff" />
+      <stop offset="100%" stop-color="#fce6f1" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1125" fill="url(#city)"/>
+  <rect y="780" width="900" height="345" fill="#8798b8"/>
+  <g fill="#6f7ea1">
+    <rect x="90" y="590" width="120" height="190"/>
+    <rect x="230" y="540" width="160" height="240"/>
+    <rect x="410" y="610" width="130" height="170"/>
+    <rect x="560" y="500" width="170" height="280"/>
+  </g>
+  <g fill="#ff6f9e">
+    <path d="M190 390c0-45 36-80 80-80 30 0 57 18 70 43 13-25 40-43 70-43 44 0 80 35 80 80 0 93-150 170-150 170S190 483 190 390z"/>
+    <path d="M465 300c0-35 28-63 63-63 23 0 45 13 55 34 11-21 33-34 56-34 34 0 63 28 63 63 0 73-119 133-119 133S465 373 465 300z"/>
+  </g>
+  <line x1="415" y1="560" x2="415" y2="695" stroke="#e96f96" stroke-width="6"/>
+  <line x1="582" y1="430" x2="582" y2="695" stroke="#e96f96" stroke-width="6"/>
+  <text x="52" y="1060" font-family="Nunito, Arial, sans-serif" font-size="52" fill="#415274">Sky Balloons</text>
+</svg>
