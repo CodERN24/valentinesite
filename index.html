@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Looks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-icons" aria-hidden="true">
+      <span>💗</span><span>🌸</span><span>💖</span><span>🌷</span><span>💞</span><span>🌸</span>
+    </div>
+
+    <main class="scene">
+      <section class="player" aria-label="Mini music player">
+        <div class="cover" aria-hidden="true">
+          <button class="play-btn" aria-label="Play or pause background music"></button>
+        </div>
+        <div class="player-info">
+          <div class="top-row">
+            <h1 id="song-title">Joel - Future Days</h1>
+            <span id="time-readout">0:00 / 0:00</span>
+          </div>
+          <p id="player-status">TAP PLAY</p>
+          <input
+            id="progress"
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            aria-label="Song progress"
+          />
+        </div>
+      </section>
+
+      <section class="stack" aria-label="Stacked memories">
+        <article class="phone phone-back">
+          <div class="screen"></div>
+        </article>
+        <article class="phone phone-mid">
+          <div class="screen"></div>
+        </article>
+        <article class="phone phone-front">
+          <div class="screen">
+            <div class="title">LOVE<br /><strong>LOOKS</strong></div>
+            <div class="avatar a1"></div>
+            <div class="avatar a2"></div>
+            <div class="bubble"></div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <div id="yt-player" aria-hidden="true"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
